@@ -1,0 +1,7 @@
+# Raw microdata must not be committed
+data/raw/
+*.dta
+*.xls
+__pycache__/
+.venv/
+.DS_Store

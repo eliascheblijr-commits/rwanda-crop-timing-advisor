@@ -1,0 +1,4034 @@
+[
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.34,
+  "n": 16
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.234,
+  "n": 11
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.191,
+  "n": 9
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.106,
+  "n": 5
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.064,
+  "n": 3
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.064,
+  "n": 3
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.361,
+  "n": 13
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.222,
+  "n": 8
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.139,
+  "n": 5
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.111,
+  "n": 4
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.056,
+  "n": 2
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.056,
+  "n": 2
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.028,
+  "n": 1
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.028,
+  "n": 1
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.392,
+  "n": 29
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.284,
+  "n": 21
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.108,
+  "n": 8
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.095,
+  "n": 7
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.095,
+  "n": 7
+ },
+ {
+  "crop": "Amaranth",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.027,
+  "n": 2
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.811,
+  "n": 1831
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.074,
+  "n": 167
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.031,
+  "n": 71
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.031,
+  "n": 69
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.026,
+  "n": 59
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.018,
+  "n": 41
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.009,
+  "n": 20
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.775,
+  "n": 2097
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.038,
+  "n": 102
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.034,
+  "n": 91
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.034,
+  "n": 91
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.031,
+  "n": 83
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.03,
+  "n": 81
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.03,
+  "n": 81
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.028,
+  "n": 76
+ },
+ {
+  "crop": "Banana for beer",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.002,
+  "n": 5
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.524,
+  "n": 2171
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.256,
+  "n": 1063
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.096,
+  "n": 397
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.085,
+  "n": 354
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.021,
+  "n": 87
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.016,
+  "n": 67
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.002,
+  "n": 8
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.523,
+  "n": 1626
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.178,
+  "n": 554
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.178,
+  "n": 552
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.065,
+  "n": 203
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.036,
+  "n": 112
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.013,
+  "n": 39
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.005,
+  "n": 14
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.002,
+  "n": 6
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.001,
+  "n": 3
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.58,
+  "n": 142
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.298,
+  "n": 73
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.082,
+  "n": 20
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.029,
+  "n": 7
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.008,
+  "n": 2
+ },
+ {
+  "crop": "Bush bean",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.004,
+  "n": 1
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.417,
+  "n": 43
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.165,
+  "n": 17
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.136,
+  "n": 14
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.107,
+  "n": 11
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.068,
+  "n": 7
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.058,
+  "n": 6
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.049,
+  "n": 5
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.172,
+  "n": 15
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.161,
+  "n": 14
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.149,
+  "n": 13
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.149,
+  "n": 13
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.149,
+  "n": 13
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.103,
+  "n": 9
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.057,
+  "n": 5
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.046,
+  "n": 4
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.011,
+  "n": 1
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.361,
+  "n": 26
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.319,
+  "n": 23
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.208,
+  "n": 15
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.056,
+  "n": 4
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.028,
+  "n": 2
+ },
+ {
+  "crop": "Cabbage",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.028,
+  "n": 2
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.333,
+  "n": 16
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.146,
+  "n": 7
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.146,
+  "n": 7
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.125,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.104,
+  "n": 5
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.083,
+  "n": 4
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.062,
+  "n": 3
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.18,
+  "n": 9
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.14,
+  "n": 7
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.12,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.12,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.12,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.12,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.12,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.06,
+  "n": 3
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.02,
+  "n": 1
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.45,
+  "n": 18
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.2,
+  "n": 8
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.15,
+  "n": 6
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.1,
+  "n": 4
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.075,
+  "n": 3
+ },
+ {
+  "crop": "Carrot",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.025,
+  "n": 1
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.365,
+  "n": 233
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.271,
+  "n": 173
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.108,
+  "n": 69
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.103,
+  "n": 66
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.066,
+  "n": 42
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.056,
+  "n": 36
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.03,
+  "n": 19
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.281,
+  "n": 680
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.138,
+  "n": 335
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.137,
+  "n": 331
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.112,
+  "n": 272
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.101,
+  "n": 245
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.081,
+  "n": 197
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.062,
+  "n": 149
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.055,
+  "n": 132
+ },
+ {
+  "crop": "Cassava",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.032,
+  "n": 78
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.347,
+  "n": 1181
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.261,
+  "n": 887
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.247,
+  "n": 841
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.12,
+  "n": 407
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.017,
+  "n": 58
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.005,
+  "n": 16
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.004,
+  "n": 13
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.328,
+  "n": 1071
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.233,
+  "n": 761
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.223,
+  "n": 729
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.133,
+  "n": 433
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.042,
+  "n": 138
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.032,
+  "n": 105
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.006,
+  "n": 18
+ },
+ {
+  "crop": "Climbing bean",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.004,
+  "n": 12
+ },
+ {
+  "crop": "Coffee",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.904,
+  "n": 554
+ },
+ {
+  "crop": "Coffee",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.065,
+  "n": 40
+ },
+ {
+  "crop": "Coffee",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.028,
+  "n": 17
+ },
+ {
+  "crop": "Coffee",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.002,
+  "n": 1
+ },
+ {
+  "crop": "Coffee",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.002,
+  "n": 1
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.77,
+  "n": 1638
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.068,
+  "n": 145
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.054,
+  "n": 115
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.043,
+  "n": 91
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.031,
+  "n": 65
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.029,
+  "n": 61
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.006,
+  "n": 13
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.728,
+  "n": 1950
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.048,
+  "n": 129
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.047,
+  "n": 127
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.043,
+  "n": 116
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.037,
+  "n": 98
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.033,
+  "n": 89
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.031,
+  "n": 83
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.03,
+  "n": 80
+ },
+ {
+  "crop": "Cooking banana",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.002,
+  "n": 5
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.765,
+  "n": 1435
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.083,
+  "n": 156
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.042,
+  "n": 78
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.04,
+  "n": 76
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.04,
+  "n": 75
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.023,
+  "n": 44
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.007,
+  "n": 13
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.702,
+  "n": 1730
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.049,
+  "n": 120
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.045,
+  "n": 112
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.045,
+  "n": 111
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.043,
+  "n": 105
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.041,
+  "n": 100
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.037,
+  "n": 92
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.036,
+  "n": 88
+ },
+ {
+  "crop": "Dessert banana",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.002,
+  "n": 6
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.346,
+  "n": 80
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.169,
+  "n": 39
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.134,
+  "n": 31
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.108,
+  "n": 25
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.091,
+  "n": 21
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.082,
+  "n": 19
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.069,
+  "n": 16
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.272,
+  "n": 40
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.15,
+  "n": 22
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.122,
+  "n": 18
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.109,
+  "n": 16
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.102,
+  "n": 15
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.095,
+  "n": 14
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.075,
+  "n": 11
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.068,
+  "n": 10
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.007,
+  "n": 1
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.236,
+  "n": 13
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.2,
+  "n": 11
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.164,
+  "n": 9
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.145,
+  "n": 8
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.145,
+  "n": 8
+ },
+ {
+  "crop": "Eggplant",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.109,
+  "n": 6
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.398,
+  "n": 105
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.254,
+  "n": 67
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.205,
+  "n": 54
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.102,
+  "n": 27
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.03,
+  "n": 8
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.008,
+  "n": 2
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.004,
+  "n": 1
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.329,
+  "n": 166
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.303,
+  "n": 153
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.259,
+  "n": 131
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.05,
+  "n": 25
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.04,
+  "n": 20
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.014,
+  "n": 7
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.004,
+  "n": 2
+ },
+ {
+  "crop": "Groundnut",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.002,
+  "n": 1
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.308,
+  "n": 302
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.177,
+  "n": 173
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.16,
+  "n": 157
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.135,
+  "n": 132
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.107,
+  "n": 105
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.065,
+  "n": 64
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.048,
+  "n": 47
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.246,
+  "n": 196
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.165,
+  "n": 131
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.156,
+  "n": 124
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.149,
+  "n": 119
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.138,
+  "n": 110
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.073,
+  "n": 58
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.034,
+  "n": 27
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.031,
+  "n": 25
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.008,
+  "n": 6
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.552,
+  "n": 137
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.177,
+  "n": 44
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.125,
+  "n": 31
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.089,
+  "n": 22
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.044,
+  "n": 11
+ },
+ {
+  "crop": "Irish potato",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.012,
+  "n": 3
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.527,
+  "n": 3455
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.26,
+  "n": 1704
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.093,
+  "n": 607
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.084,
+  "n": 552
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.032,
+  "n": 213
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.003,
+  "n": 18
+ },
+ {
+  "crop": "Maize",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.002,
+  "n": 12
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.383,
+  "n": 899
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.21,
+  "n": 492
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.191,
+  "n": 447
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.104,
+  "n": 244
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.07,
+  "n": 165
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.02,
+  "n": 47
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.012,
+  "n": 29
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.005,
+  "n": 12
+ },
+ {
+  "crop": "Maize",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.004,
+  "n": 10
+ },
+ {
+  "crop": "Millet",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.467,
+  "n": 28
+ },
+ {
+  "crop": "Millet",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.333,
+  "n": 20
+ },
+ {
+  "crop": "Millet",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.15,
+  "n": 9
+ },
+ {
+  "crop": "Millet",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.05,
+  "n": 3
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.808,
+  "n": 97
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.075,
+  "n": 9
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.042,
+  "n": 5
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.025,
+  "n": 3
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.025,
+  "n": 3
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.017,
+  "n": 2
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.008,
+  "n": 1
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.744,
+  "n": 99
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.06,
+  "n": 8
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.053,
+  "n": 7
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.045,
+  "n": 6
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.03,
+  "n": 4
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.03,
+  "n": 4
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.023,
+  "n": 3
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.008,
+  "n": 1
+ },
+ {
+  "crop": "Napia grass for fodder",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.008,
+  "n": 1
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.324,
+  "n": 12
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.324,
+  "n": 12
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.135,
+  "n": 5
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.108,
+  "n": 4
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.054,
+  "n": 2
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.027,
+  "n": 1
+ },
+ {
+  "crop": "Onion",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.027,
+  "n": 1
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.257,
+  "n": 9
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.2,
+  "n": 7
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.143,
+  "n": 5
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.114,
+  "n": 4
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.086,
+  "n": 3
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.086,
+  "n": 3
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.057,
+  "n": 2
+ },
+ {
+  "crop": "Onion",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.057,
+  "n": 2
+ },
+ {
+  "crop": "Onion",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.424,
+  "n": 14
+ },
+ {
+  "crop": "Onion",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.212,
+  "n": 7
+ },
+ {
+  "crop": "Onion",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.182,
+  "n": 6
+ },
+ {
+  "crop": "Onion",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.152,
+  "n": 5
+ },
+ {
+  "crop": "Onion",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.03,
+  "n": 1
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.269,
+  "n": 46
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.193,
+  "n": 33
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.146,
+  "n": 25
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.14,
+  "n": 24
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.123,
+  "n": 21
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.088,
+  "n": 15
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.041,
+  "n": 7
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.216,
+  "n": 50
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.195,
+  "n": 45
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.19,
+  "n": 44
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.156,
+  "n": 36
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.126,
+  "n": 29
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.061,
+  "n": 14
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.043,
+  "n": 10
+ },
+ {
+  "crop": "Paddy rice",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.013,
+  "n": 3
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.406,
+  "n": 136
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.191,
+  "n": 64
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.125,
+  "n": 42
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.107,
+  "n": 36
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.087,
+  "n": 29
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.051,
+  "n": 17
+ },
+ {
+  "crop": "Pea",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.033,
+  "n": 11
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.23,
+  "n": 66
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.185,
+  "n": 53
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.174,
+  "n": 50
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.174,
+  "n": 50
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.091,
+  "n": 26
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.077,
+  "n": 22
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.045,
+  "n": 13
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.021,
+  "n": 6
+ },
+ {
+  "crop": "Pea",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.003,
+  "n": 1
+ },
+ {
+  "crop": "Pea",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.286,
+  "n": 12
+ },
+ {
+  "crop": "Pea",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.262,
+  "n": 11
+ },
+ {
+  "crop": "Pea",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.238,
+  "n": 10
+ },
+ {
+  "crop": "Pea",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.119,
+  "n": 5
+ },
+ {
+  "crop": "Pea",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.095,
+  "n": 4
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.462,
+  "n": 182
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.353,
+  "n": 139
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.124,
+  "n": 49
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.038,
+  "n": 15
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.023,
+  "n": 9
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.421,
+  "n": 790
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.24,
+  "n": 450
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.21,
+  "n": 394
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.064,
+  "n": 120
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.056,
+  "n": 106
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.005,
+  "n": 9
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.002,
+  "n": 4
+ },
+ {
+  "crop": "Sorghum",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.002,
+  "n": 4
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.419,
+  "n": 407
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.261,
+  "n": 253
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.174,
+  "n": 169
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.123,
+  "n": 119
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.012,
+  "n": 12
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.007,
+  "n": 7
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.004,
+  "n": 4
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.39,
+  "n": 353
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.283,
+  "n": 256
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.178,
+  "n": 161
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.086,
+  "n": 78
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.049,
+  "n": 44
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.009,
+  "n": 8
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.003,
+  "n": 3
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.002,
+  "n": 2
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.568,
+  "n": 21
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.378,
+  "n": 14
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.027,
+  "n": 1
+ },
+ {
+  "crop": "Soybean",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.027,
+  "n": 1
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.84,
+  "n": 42
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.1,
+  "n": 5
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.04,
+  "n": 2
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.02,
+  "n": 1
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.489,
+  "n": 46
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.106,
+  "n": 10
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.085,
+  "n": 8
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.074,
+  "n": 7
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.074,
+  "n": 7
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.064,
+  "n": 6
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.053,
+  "n": 5
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.032,
+  "n": 3
+ },
+ {
+  "crop": "Sugar cane",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.021,
+  "n": 2
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.572,
+  "n": 83
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.269,
+  "n": 39
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.076,
+  "n": 11
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.062,
+  "n": 9
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.021,
+  "n": 3
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.478,
+  "n": 89
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.323,
+  "n": 60
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.108,
+  "n": 20
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.07,
+  "n": 13
+ },
+ {
+  "crop": "Sun flower",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.022,
+  "n": 4
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.39,
+  "n": 860
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.28,
+  "n": 618
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.091,
+  "n": 201
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.075,
+  "n": 165
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.064,
+  "n": 142
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.055,
+  "n": 121
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.044,
+  "n": 97
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.211,
+  "n": 715
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.155,
+  "n": 526
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.124,
+  "n": 421
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.114,
+  "n": 385
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.105,
+  "n": 356
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.086,
+  "n": 293
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.075,
+  "n": 253
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.073,
+  "n": 246
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.058,
+  "n": 197
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.82,
+  "n": 585
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.111,
+  "n": 79
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.035,
+  "n": 25
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.021,
+  "n": 15
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.008,
+  "n": 6
+ },
+ {
+  "crop": "Sweet potato",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.004,
+  "n": 3
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.475,
+  "n": 181
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.339,
+  "n": 129
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.071,
+  "n": 27
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.047,
+  "n": 18
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.031,
+  "n": 12
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.029,
+  "n": 11
+ },
+ {
+  "crop": "Taro",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.008,
+  "n": 3
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.263,
+  "n": 303
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.137,
+  "n": 158
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.107,
+  "n": 123
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.106,
+  "n": 122
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.095,
+  "n": 110
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.09,
+  "n": 104
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.083,
+  "n": 96
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.079,
+  "n": 91
+ },
+ {
+  "crop": "Taro",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.041,
+  "n": 47
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.248,
+  "n": 29
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.154,
+  "n": 18
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "1-15 Dec",
+  "order": 2,
+  "approx_month": 12,
+  "share": 0.137,
+  "n": 16
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.128,
+  "n": 15
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.111,
+  "n": 13
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "Before 1 Dec",
+  "order": 1,
+  "approx_month": 11,
+  "share": 0.111,
+  "n": 13
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.111,
+  "n": 13
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.208,
+  "n": 25
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.133,
+  "n": 16
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "1-15 Jun",
+  "order": 4,
+  "approx_month": 6,
+  "share": 0.117,
+  "n": 14
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "1-15 May",
+  "order": 2,
+  "approx_month": 5,
+  "share": 0.117,
+  "n": 14
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.117,
+  "n": 14
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.108,
+  "n": 13
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.1,
+  "n": 12
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.083,
+  "n": 10
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.017,
+  "n": 2
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "After 30 Sep",
+  "order": 6,
+  "approx_month": 10,
+  "share": 0.292,
+  "n": 47
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "1-15 Sep",
+  "order": 4,
+  "approx_month": 9,
+  "share": 0.199,
+  "n": 32
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "16-30 Sep",
+  "order": 5,
+  "approx_month": 9,
+  "share": 0.186,
+  "n": 30
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "16-31 Aug",
+  "order": 3,
+  "approx_month": 8,
+  "share": 0.174,
+  "n": 28
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "1-15 Aug",
+  "order": 2,
+  "approx_month": 8,
+  "share": 0.118,
+  "n": 19
+ },
+ {
+  "crop": "Tomato",
+  "season": "Season C",
+  "window": "Before 1 Aug",
+  "order": 1,
+  "approx_month": 7,
+  "share": 0.031,
+  "n": 5
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season A",
+  "window": "1-28 Feb",
+  "order": 6,
+  "approx_month": 2,
+  "share": 0.534,
+  "n": 62
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season A",
+  "window": "After Feb",
+  "order": 7,
+  "approx_month": 3,
+  "share": 0.241,
+  "n": 28
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season A",
+  "window": "16-31 Jan",
+  "order": 5,
+  "approx_month": 1,
+  "share": 0.207,
+  "n": 24
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season A",
+  "window": "16-31 Dec",
+  "order": 3,
+  "approx_month": 12,
+  "share": 0.009,
+  "n": 1
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season A",
+  "window": "1-15 Jan",
+  "order": 4,
+  "approx_month": 1,
+  "share": 0.009,
+  "n": 1
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "1-31 Aug",
+  "order": 8,
+  "approx_month": 8,
+  "share": 0.494,
+  "n": 117
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "16-31 Jul",
+  "order": 7,
+  "approx_month": 7,
+  "share": 0.329,
+  "n": 78
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "1-15 Jul",
+  "order": 6,
+  "approx_month": 7,
+  "share": 0.093,
+  "n": 22
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "16-30 Jun",
+  "order": 5,
+  "approx_month": 6,
+  "share": 0.042,
+  "n": 10
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "After Aug",
+  "order": 9,
+  "approx_month": 9,
+  "share": 0.03,
+  "n": 7
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "15-31 May",
+  "order": 3,
+  "approx_month": 5,
+  "share": 0.008,
+  "n": 2
+ },
+ {
+  "crop": "Wheat",
+  "season": "Season B",
+  "window": "Before 1 May",
+  "order": 1,
+  "approx_month": 4,
+  "share": 0.004,
+  "n": 1
+ }
+]

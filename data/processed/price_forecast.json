@@ -1,0 +1,794 @@
+{
+ "Food (all)": {
+  "model": "damped-trend ETS",
+  "alternatives": {
+   "naive (last value)": [
+    323.5,
+    323.5,
+    323.5,
+    323.5,
+    323.5,
+    323.5
+   ],
+   "seasonal naive + annual drift": [
+    325.8,
+    323.2,
+    318.7,
+    319.8,
+    324.1,
+    332.0
+   ],
+   "damped-trend ETS": [
+    336.1,
+    339.0,
+    331.3,
+    328.2,
+    335.0,
+    346.7
+   ],
+   "SARIMA(0,1,1)(0,1,1)12": [
+    335.7,
+    333.8,
+    323.1,
+    319.2,
+    325.8,
+    336.6
+   ]
+  },
+  "last_observed": "2026-09",
+  "history": [
+   {
+    "month": "2023-10",
+    "value": 273.5
+   },
+   {
+    "month": "2023-11",
+    "value": 262.3
+   },
+   {
+    "month": "2023-12",
+    "value": 238.5
+   },
+   {
+    "month": "2024-01",
+    "value": 233.0
+   },
+   {
+    "month": "2024-02",
+    "value": 242.6
+   },
+   {
+    "month": "2024-03",
+    "value": 244.8
+   },
+   {
+    "month": "2024-04",
+    "value": 244.7
+   },
+   {
+    "month": "2024-05",
+    "value": 239.0
+   },
+   {
+    "month": "2024-06",
+    "value": 235.4
+   },
+   {
+    "month": "2024-07",
+    "value": 236.5
+   },
+   {
+    "month": "2024-08",
+    "value": 242.2
+   },
+   {
+    "month": "2024-09",
+    "value": 248.4
+   },
+   {
+    "month": "2024-10",
+    "value": 257.6
+   },
+   {
+    "month": "2024-11",
+    "value": 260.9
+   },
+   {
+    "month": "2024-12",
+    "value": 252.1
+   },
+   {
+    "month": "2025-01",
+    "value": 242.5
+   },
+   {
+    "month": "2025-02",
+    "value": 246.1
+   },
+   {
+    "month": "2025-03",
+    "value": 253.5
+   },
+   {
+    "month": "2025-04",
+    "value": 264.7
+   },
+   {
+    "month": "2025-05",
+    "value": 262.8
+   },
+   {
+    "month": "2025-06",
+    "value": 260.7
+   },
+   {
+    "month": "2025-07",
+    "value": 252.0
+   },
+   {
+    "month": "2025-08",
+    "value": 254.4
+   },
+   {
+    "month": "2025-09",
+    "value": 258.4
+   },
+   {
+    "month": "2025-10",
+    "value": 260.2
+   },
+   {
+    "month": "2025-11",
+    "value": 258.1
+   },
+   {
+    "month": "2025-12",
+    "value": 254.5
+   },
+   {
+    "month": "2026-01",
+    "value": 255.4
+   },
+   {
+    "month": "2026-02",
+    "value": 258.9
+   },
+   {
+    "month": "2026-03",
+    "value": 265.2
+   },
+   {
+    "month": "2026-04",
+    "value": 280.0
+   },
+   {
+    "month": "2026-05",
+    "value": 282.7
+   },
+   {
+    "month": "2026-06",
+    "value": 281.7
+   },
+   {
+    "month": "2026-07",
+    "value": 283.7
+   },
+   {
+    "month": "2026-08",
+    "value": 296.8
+   },
+   {
+    "month": "2026-09",
+    "value": 323.5
+   }
+  ],
+  "forecast": [
+   {
+    "month": "2026-10",
+    "value": 336.1,
+    "lo80": 325.2,
+    "hi80": 347.1,
+    "yoy_pct": 29.2
+   },
+   {
+    "month": "2026-11",
+    "value": 339.0,
+    "lo80": 327.6,
+    "hi80": 354.5,
+    "yoy_pct": 31.3
+   },
+   {
+    "month": "2026-12",
+    "value": 331.3,
+    "lo80": 315.3,
+    "hi80": 356.6,
+    "yoy_pct": 30.2
+   },
+   {
+    "month": "2027-01",
+    "value": 328.2,
+    "lo80": 303.4,
+    "hi80": 370.6,
+    "yoy_pct": 28.5
+   },
+   {
+    "month": "2027-02",
+    "value": 335.0,
+    "lo80": 312.5,
+    "hi80": 379.5,
+    "yoy_pct": 29.4
+   },
+   {
+    "month": "2027-03",
+    "value": 346.7,
+    "lo80": 321.9,
+    "hi80": 400.5,
+    "yoy_pct": 30.7
+   }
+  ],
+  "backtest": {
+   "origins": 29,
+   "first_origin": "2019-01",
+   "last_origin": "2026-01",
+   "horizons_months": 6,
+   "mape_pct": {
+    "naive (last value)": {
+     "1": 2.64,
+     "3": 6.4,
+     "6": 7.61
+    },
+    "seasonal naive + annual drift": {
+     "1": 3.22,
+     "3": 6.79,
+     "6": 11.95
+    },
+    "damped-trend ETS": {
+     "1": 2.21,
+     "3": 4.29,
+     "6": 6.97
+    },
+    "SARIMA(0,1,1)(0,1,1)12": {
+     "1": 1.93,
+     "3": 4.44,
+     "6": 6.83
+    }
+   },
+   "avg_mape_1_to_6_pct": {
+    "naive (last value)": 5.82,
+    "seasonal naive + annual drift": 7.74,
+    "damped-trend ETS": 4.63,
+    "SARIMA(0,1,1)(0,1,1)12": 4.63
+   },
+   "skill_vs_naive_pct": 20.5,
+   "note": "Model chosen on the same backtest it is scored on, so skill is slightly optimistic."
+  }
+ },
+ "Bread and cereals": {
+  "model": "damped-trend ETS",
+  "alternatives": {
+   "naive (last value)": [
+    237.5,
+    237.5,
+    237.5,
+    237.5,
+    237.5,
+    237.5
+   ],
+   "seasonal naive + annual drift": [
+    244.5,
+    245.8,
+    246.0,
+    241.5,
+    238.8,
+    236.2
+   ],
+   "damped-trend ETS": [
+    244.3,
+    250.2,
+    253.8,
+    253.3,
+    247.9,
+    247.4
+   ],
+   "SARIMA(0,1,1)(0,1,1)12": [
+    244.1,
+    248.8,
+    251.8,
+    251.0,
+    245.5,
+    245.0
+   ]
+  },
+  "last_observed": "2026-09",
+  "history": [
+   {
+    "month": "2023-10",
+    "value": 220.0
+   },
+   {
+    "month": "2023-11",
+    "value": 221.5
+   },
+   {
+    "month": "2023-12",
+    "value": 220.9
+   },
+   {
+    "month": "2024-01",
+    "value": 219.3
+   },
+   {
+    "month": "2024-02",
+    "value": 206.9
+   },
+   {
+    "month": "2024-03",
+    "value": 201.3
+   },
+   {
+    "month": "2024-04",
+    "value": 206.2
+   },
+   {
+    "month": "2024-05",
+    "value": 202.3
+   },
+   {
+    "month": "2024-06",
+    "value": 196.7
+   },
+   {
+    "month": "2024-07",
+    "value": 193.5
+   },
+   {
+    "month": "2024-08",
+    "value": 195.8
+   },
+   {
+    "month": "2024-09",
+    "value": 200.6
+   },
+   {
+    "month": "2024-10",
+    "value": 205.3
+   },
+   {
+    "month": "2024-11",
+    "value": 209.3
+   },
+   {
+    "month": "2024-12",
+    "value": 211.9
+   },
+   {
+    "month": "2025-01",
+    "value": 210.1
+   },
+   {
+    "month": "2025-02",
+    "value": 205.0
+   },
+   {
+    "month": "2025-03",
+    "value": 204.9
+   },
+   {
+    "month": "2025-04",
+    "value": 211.6
+   },
+   {
+    "month": "2025-05",
+    "value": 216.3
+   },
+   {
+    "month": "2025-06",
+    "value": 220.1
+   },
+   {
+    "month": "2025-07",
+    "value": 220.2
+   },
+   {
+    "month": "2025-08",
+    "value": 221.8
+   },
+   {
+    "month": "2025-09",
+    "value": 226.6
+   },
+   {
+    "month": "2025-10",
+    "value": 233.2
+   },
+   {
+    "month": "2025-11",
+    "value": 234.5
+   },
+   {
+    "month": "2025-12",
+    "value": 234.7
+   },
+   {
+    "month": "2026-01",
+    "value": 230.4
+   },
+   {
+    "month": "2026-02",
+    "value": 227.9
+   },
+   {
+    "month": "2026-03",
+    "value": 225.3
+   },
+   {
+    "month": "2026-04",
+    "value": 228.4
+   },
+   {
+    "month": "2026-05",
+    "value": 231.8
+   },
+   {
+    "month": "2026-06",
+    "value": 230.1
+   },
+   {
+    "month": "2026-07",
+    "value": 228.7
+   },
+   {
+    "month": "2026-08",
+    "value": 231.0
+   },
+   {
+    "month": "2026-09",
+    "value": 237.5
+   }
+  ],
+  "forecast": [
+   {
+    "month": "2026-10",
+    "value": 244.3,
+    "lo80": 237.7,
+    "hi80": 249.6,
+    "yoy_pct": 4.8
+   },
+   {
+    "month": "2026-11",
+    "value": 250.2,
+    "lo80": 237.8,
+    "hi80": 262.1,
+    "yoy_pct": 6.7
+   },
+   {
+    "month": "2026-12",
+    "value": 253.8,
+    "lo80": 242.1,
+    "hi80": 269.2,
+    "yoy_pct": 8.1
+   },
+   {
+    "month": "2027-01",
+    "value": 253.3,
+    "lo80": 234.8,
+    "hi80": 273.8,
+    "yoy_pct": 9.9
+   },
+   {
+    "month": "2027-02",
+    "value": 247.9,
+    "lo80": 228.2,
+    "hi80": 271.3,
+    "yoy_pct": 8.8
+   },
+   {
+    "month": "2027-03",
+    "value": 247.4,
+    "lo80": 227.9,
+    "hi80": 276.4,
+    "yoy_pct": 9.8
+   }
+  ],
+  "backtest": {
+   "origins": 29,
+   "first_origin": "2019-01",
+   "last_origin": "2026-01",
+   "horizons_months": 6,
+   "mape_pct": {
+    "naive (last value)": {
+     "1": 2.27,
+     "3": 4.62,
+     "6": 7.58
+    },
+    "seasonal naive + annual drift": {
+     "1": 2.97,
+     "3": 6.38,
+     "6": 11.71
+    },
+    "damped-trend ETS": {
+     "1": 1.67,
+     "3": 4.03,
+     "6": 6.67
+    },
+    "SARIMA(0,1,1)(0,1,1)12": {
+     "1": 1.79,
+     "3": 4.05,
+     "6": 6.83
+    }
+   },
+   "avg_mape_1_to_6_pct": {
+    "naive (last value)": 5.21,
+    "seasonal naive + annual drift": 7.51,
+    "damped-trend ETS": 4.44,
+    "SARIMA(0,1,1)(0,1,1)12": 4.56
+   },
+   "skill_vs_naive_pct": 14.9,
+   "note": "Model chosen on the same backtest it is scored on, so skill is slightly optimistic."
+  }
+ },
+ "Vegetables": {
+  "model": "SARIMA(0,1,1)(0,1,1)12",
+  "alternatives": {
+   "naive (last value)": [
+    378.2,
+    378.2,
+    378.2,
+    378.2,
+    378.2,
+    378.2
+   ],
+   "seasonal naive + annual drift": [
+    376.0,
+    364.9,
+    351.5,
+    352.7,
+    365.8,
+    384.3
+   ],
+   "damped-trend ETS": [
+    393.5,
+    389.3,
+    366.2,
+    356.2,
+    372.7,
+    395.2
+   ],
+   "SARIMA(0,1,1)(0,1,1)12": [
+    397.7,
+    387.4,
+    360.0,
+    349.8,
+    367.0,
+    388.6
+   ]
+  },
+  "last_observed": "2026-09",
+  "history": [
+   {
+    "month": "2023-10",
+    "value": 330.0
+   },
+   {
+    "month": "2023-11",
+    "value": 304.6
+   },
+   {
+    "month": "2023-12",
+    "value": 256.0
+   },
+   {
+    "month": "2024-01",
+    "value": 244.8
+   },
+   {
+    "month": "2024-02",
+    "value": 268.0
+   },
+   {
+    "month": "2024-03",
+    "value": 274.1
+   },
+   {
+    "month": "2024-04",
+    "value": 269.8
+   },
+   {
+    "month": "2024-05",
+    "value": 263.6
+   },
+   {
+    "month": "2024-06",
+    "value": 264.3
+   },
+   {
+    "month": "2024-07",
+    "value": 268.7
+   },
+   {
+    "month": "2024-08",
+    "value": 274.5
+   },
+   {
+    "month": "2024-09",
+    "value": 282.9
+   },
+   {
+    "month": "2024-10",
+    "value": 293.5
+   },
+   {
+    "month": "2024-11",
+    "value": 294.9
+   },
+   {
+    "month": "2024-12",
+    "value": 272.0
+   },
+   {
+    "month": "2025-01",
+    "value": 246.6
+   },
+   {
+    "month": "2025-02",
+    "value": 254.9
+   },
+   {
+    "month": "2025-03",
+    "value": 270.3
+   },
+   {
+    "month": "2025-04",
+    "value": 288.7
+   },
+   {
+    "month": "2025-05",
+    "value": 279.6
+   },
+   {
+    "month": "2025-06",
+    "value": 275.8
+   },
+   {
+    "month": "2025-07",
+    "value": 263.4
+   },
+   {
+    "month": "2025-08",
+    "value": 268.5
+   },
+   {
+    "month": "2025-09",
+    "value": 274.4
+   },
+   {
+    "month": "2025-10",
+    "value": 272.9
+   },
+   {
+    "month": "2025-11",
+    "value": 264.8
+   },
+   {
+    "month": "2025-12",
+    "value": 255.1
+   },
+   {
+    "month": "2026-01",
+    "value": 255.9
+   },
+   {
+    "month": "2026-02",
+    "value": 265.4
+   },
+   {
+    "month": "2026-03",
+    "value": 278.9
+   },
+   {
+    "month": "2026-04",
+    "value": 302.5
+   },
+   {
+    "month": "2026-05",
+    "value": 306.4
+   },
+   {
+    "month": "2026-06",
+    "value": 308.4
+   },
+   {
+    "month": "2026-07",
+    "value": 308.8
+   },
+   {
+    "month": "2026-08",
+    "value": 329.1
+   },
+   {
+    "month": "2026-09",
+    "value": 378.2
+   }
+  ],
+  "forecast": [
+   {
+    "month": "2026-10",
+    "value": 397.7,
+    "lo80": 380.5,
+    "hi80": 415.6,
+    "yoy_pct": 45.8
+   },
+   {
+    "month": "2026-11",
+    "value": 387.4,
+    "lo80": 363.3,
+    "hi80": 418.3,
+    "yoy_pct": 46.3
+   },
+   {
+    "month": "2026-12",
+    "value": 360.0,
+    "lo80": 321.8,
+    "hi80": 399.9,
+    "yoy_pct": 41.1
+   },
+   {
+    "month": "2027-01",
+    "value": 349.8,
+    "lo80": 307.6,
+    "hi80": 410.7,
+    "yoy_pct": 36.7
+   },
+   {
+    "month": "2027-02",
+    "value": 367.0,
+    "lo80": 316.8,
+    "hi80": 445.2,
+    "yoy_pct": 38.3
+   },
+   {
+    "month": "2027-03",
+    "value": 388.6,
+    "lo80": 331.8,
+    "hi80": 490.6,
+    "yoy_pct": 39.4
+   }
+  ],
+  "backtest": {
+   "origins": 29,
+   "first_origin": "2019-01",
+   "last_origin": "2026-01",
+   "horizons_months": 6,
+   "mape_pct": {
+    "naive (last value)": {
+     "1": 4.68,
+     "3": 10.78,
+     "6": 12.73
+    },
+    "seasonal naive + annual drift": {
+     "1": 5.18,
+     "3": 11.48,
+     "6": 19.12
+    },
+    "damped-trend ETS": {
+     "1": 3.42,
+     "3": 7.45,
+     "6": 10.95
+    },
+    "SARIMA(0,1,1)(0,1,1)12": {
+     "1": 3.05,
+     "3": 7.12,
+     "6": 11.09
+    }
+   },
+   "avg_mape_1_to_6_pct": {
+    "naive (last value)": 9.78,
+    "seasonal naive + annual drift": 12.41,
+    "damped-trend ETS": 7.58,
+    "SARIMA(0,1,1)(0,1,1)12": 7.39
+   },
+   "skill_vs_naive_pct": 24.4,
+   "note": "Model chosen on the same backtest it is scored on, so skill is slightly optimistic."
+  }
+ }
+}

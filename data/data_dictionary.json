@@ -1,0 +1,153 @@
+{
+  "note": "Variable names verified from the Stata labels of the AHS 2024 files and the CPI workbook structure. Items marked UNVERIFIED were not checked.",
+  "sources": {
+    "AHS2024": {
+      "name": "NISR Agricultural Household Survey 2024",
+      "format": "Stata .dta, 14 files, 30 districts, Seasons A/B/C",
+      "access": "https://microdata.statistics.gov.rw (free registration)",
+      "redistributed_in_repo": false
+    },
+    "CPI": {
+      "name": "NISR Consumer Price Index time series, September 2026",
+      "file": "CPI_time_series_September_2026.xls",
+      "coverage": "monthly, Feb 2009 to Sep 2026 (213 months)",
+      "base": "February 2014 = 100",
+      "access": "https://statistics.gov.rw/node/1836",
+      "redistributed_in_repo": false
+    },
+    "geoBoundaries": {
+      "name": "geoBoundaries RWA ADM2 (simplified)",
+      "license": "CC BY 4.0",
+      "access": "https://www.geoboundaries.org",
+      "citation": "Runfola et al. 2020, PLoS ONE 15(4): e0231866",
+      "redistributed_in_repo": true,
+      "file": "data/districts.geojson",
+      "note": "30 polygons; district names match the survey"
+    }
+  },
+  "ahs_crop_file": {
+    "file": "AHS2024_Section3_4_CROP GROWN, SEEDS AND PRODUCTION & AGRICULTURAL INPUTS AND PRACTICES.dta",
+    "plot_rows": 32616,
+    "crop_entries": 74549,
+    "crop_entries_by_season": {
+      "Season A": 37254,
+      "Season B": 35249,
+      "Season C": 2046
+    },
+    "structure": "One row per plot; up to 7 crops per plot in repeated columns (suffix _1 to _7). Reshaped to one row per crop entry.",
+    "variables_used": {
+      "district": "District",
+      "Season": "Season (A/B/C)",
+      "s3_q4_k": "Crop name",
+      "s3_q4_ka": "Crop proportion on plot (%)",
+      "s3_q7_k": "Sowing date (half-month windows)",
+      "s3_q8_k": "Expected period for crop harvesting (half-month windows)",
+      "s3_q20_k": "Total quantity of harvest for this season in this plot (kg)",
+      "s2q2": "Plot area (sqm)",
+      "weight": "Labelled 'Final Season A weight' - validity for Seasons B and C UNVERIFIED; weights NOT applied"
+    }
+  },
+  "ahs_fruits_file": {
+    "file": "AHS2024_Section5_FRUITS PRODUCTION.dta",
+    "records": 9193,
+    "seasons": [
+      "Season A",
+      "Season B"
+    ],
+    "variables_used": {
+      "s5_q2": "Fruit name",
+      "s5_q5": "Total production (kg)",
+      "s5_q6": "Quantity sold",
+      "s5_q7": "Selling price per kg (RWF)"
+    },
+    "observed": {
+      "avocado_records": 2957,
+      "avocado_with_sales": 950,
+      "avocado_median_price_rwf_per_kg": 200
+    },
+    "used_in_processed_tables": false
+  },
+  "processing": {
+    "scripts": [
+      "scripts/load_long.py",
+      "scripts/build_calendar.py",
+      "scripts/build_price_index.py",
+      "scripts/build_sell_timing.py",
+      "scripts/build_district.py",
+      "scripts/build_forecast.py"
+    ],
+    "outputs": {
+      "data/processed/harvest_calendar.json": "One row per crop x season (n of stated harvest windows >= 30): peak windows, yield summary, CPI group mapping",
+      "data/processed/harvest_windows.json": "Share of plots by harvest window per crop x season, in chronological order",
+      "data/processed/seasonal_price_index.json": "Month-of-year price index (mean = 1) for Bread and cereals, Vegetables and Food (all), from the CPI All Rwanda series",
+      "data/processed/seasonal_price_stats.json": "Peak/trough month, amplitude, consistency across years and stability checks for every CPI food group, including groups with negligible seasonality",
+      "data/processed/district_crop.json": "Per district x season x crop: n_entries, district_total_entries, share_of_entries, n_yield, yield_kg_per_ha_median (yield only when n >= 30). Unweighted. The map masks shares where the district total is under 100 entries.",
+      "data/processed/price_forecast.json": "Per CPI group: chosen model, alternative models (6 values each), last observed month, 36-month history, 6-month forecast with lo80/hi80 and y/y %, backtest stats."
+    },
+    "price_index_method": "Each month's CPI divided by a centered 2x12-month moving average, averaged by calendar month over Feb 2009 to Sep 2026, normalised to mean 1.",
+    "sell_timing_fields": {
+      "price_index_at_harvest": "Seasonal index in the approximate peak harvest month",
+      "best_month_within_3m": "Month with the highest seasonal index from harvest month to 3 months later",
+      "price_gain_hold_3m_pct": "Percent rise of that index versus the harvest month",
+      "price_gain_hold_6m_pct": "Same, within 6 months",
+      "harvest_in_cheap_season": "True if the index at harvest is below 0.99",
+      "note": "Group-level consumer price index; excludes storage costs and losses."
+    },
+    "harvest_window_rules": [
+      "Windows are matched to season-specific labels; 'Other season (applicable for all crops)' and stray values (25, 25.0) are treated as unspecified, about 20% of entries overall.",
+      "Open-ended windows (Before X, After Y) get an approximate month for later joining with CPI: Before 1 Dec = Nov, After Feb = Mar, Before 1 May = Apr, After Aug = Sep, Before 1 Aug = Jul, After 30 Sep = Oct.",
+      "Crop-season combinations with fewer than 30 stated windows are dropped (100 combinations dropped; 27 crops kept)."
+    ],
+    "yield_rule": "kg harvested / (plot area x crop proportion), per entry with harvest > 0 and area > 0; median and quartiles reported. Intercropping makes this approximate.",
+    "weighting": "Unweighted sample statistics, not national estimates.",
+    "forecast_method": "Models on the log index: naive, seasonal naive + annual drift, damped-trend ETS, SARIMA(0,1,1)(0,1,1)12. Rolling-origin backtest, 29 origins (2019-01 to 2026-01, step 3), horizons 1-6; best model per group by average MAPE; 80% bands from backtest error quantiles. Model chosen on the same backtest it is scored on, so skill is slightly optimistic.",
+    "forecast_results": {
+      "Food (all)": "damped-trend ETS, avg MAPE 4.6%, 20.5% better than naive",
+      "Bread and cereals": "damped-trend ETS, 4.4%, 14.9% better",
+      "Vegetables": "SARIMA, 7.4%, 24.4% better"
+    },
+    "district_note": "Season C has under 100 entries in 25 of 30 districts."
+  },
+  "cpi_groups": {
+    "sheet": "All Rwanda",
+    "series": [
+      "Bread and cereals",
+      "Meat",
+      "Milk, cheese and eggs",
+      "Vegetables",
+      "Non-alcoholic beverages"
+    ],
+    "unverified": "Item-level series (maize, beans, potatoes) are not present in the summary sheets.",
+    "note": "All Rwanda index. NISR's headline inflation figures are the Urban index, so they differ."
+  },
+  "crop_to_cpi_group": {
+    "assumed": {
+      "Bread and cereals": [
+        "Maize",
+        "Sorghum",
+        "Paddy rice",
+        "Wheat"
+      ],
+      "Vegetables": [
+        "Tomato",
+        "Onion",
+        "Cabbage",
+        "Carrot",
+        "Eggplant",
+        "Amaranth"
+      ]
+    },
+    "probable_verify": {
+      "Vegetables": [
+        "Climbing bean",
+        "Bush bean",
+        "Irish potato",
+        "Sweet potato",
+        "Cassava",
+        "Taro",
+        "Cooking banana"
+      ],
+      "reason": "Under the COICOP food classification, the vegetables group is expected to cover pulses, tubers and plantains. UNVERIFIED against NISR CPI methodology."
+    }
+  }
+}

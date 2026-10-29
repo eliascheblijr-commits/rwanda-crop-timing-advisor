@@ -1,0 +1,86 @@
+{
+ "General CPI": {
+  "peak_month": "10 Oct",
+  "trough_month": "01 Jan",
+  "amplitude_pct": 3.7,
+  "peak_above_trend_share_of_years": 0.82,
+  "trough_below_trend_share_of_years": 0.94,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0131,
+  "corr_full_vs_2015plus": 0.98,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Food (all)": {
+  "peak_month": "10 Oct",
+  "trough_month": "01 Jan",
+  "amplitude_pct": 7.3,
+  "peak_above_trend_share_of_years": 0.88,
+  "trough_below_trend_share_of_years": 0.94,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0254,
+  "corr_full_vs_2015plus": 0.98,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Bread and cereals": {
+  "peak_month": "12 Dec",
+  "trough_month": "08 Aug",
+  "amplitude_pct": 5.1,
+  "peak_above_trend_share_of_years": 0.82,
+  "trough_below_trend_share_of_years": 0.82,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0264,
+  "corr_full_vs_2015plus": 0.96,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Meat": {
+  "peak_month": "01 Jan",
+  "trough_month": "08 Aug",
+  "amplitude_pct": 0.9,
+  "peak_above_trend_share_of_years": 0.71,
+  "trough_below_trend_share_of_years": 0.82,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0117,
+  "corr_full_vs_2015plus": 0.71,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Milk, cheese and eggs": {
+  "peak_month": "11 Nov",
+  "trough_month": "05 May",
+  "amplitude_pct": 2.4,
+  "peak_above_trend_share_of_years": 0.53,
+  "trough_below_trend_share_of_years": 0.69,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0255,
+  "corr_full_vs_2015plus": 0.89,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Vegetables": {
+  "peak_month": "10 Oct",
+  "trough_month": "01 Jan",
+  "amplitude_pct": 16.4,
+  "peak_above_trend_share_of_years": 0.88,
+  "trough_below_trend_share_of_years": 1.0,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0407,
+  "corr_full_vs_2015plus": 0.99,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ },
+ "Non-alcoholic beverages": {
+  "peak_month": "09 Sep",
+  "trough_month": "10 Oct",
+  "amplitude_pct": 0.7,
+  "peak_above_trend_share_of_years": 0.71,
+  "trough_below_trend_share_of_years": 0.71,
+  "years_per_month": 16,
+  "avg_sd_across_years": 0.0126,
+  "corr_full_vs_2015plus": 0.5,
+  "first_obs": "2009-02",
+  "last_obs": "2026-09"
+ }
+}
