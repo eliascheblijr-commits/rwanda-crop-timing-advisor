@@ -1,28 +1,24 @@
-"""Global state management for cross-tab synchronization."""
+"""Keeps the chosen crop and season in sync across views."""
 import streamlit as st
 
+
 def init_state(cal_df):
-    """Initializes master session states for crop and season synchronization."""
     if "master_crop" not in st.session_state:
-        available_crops = sorted(cal_df["crop"].unique())
-        st.session_state.master_crop = "Irish potato" if "Irish potato" in available_crops else available_crops[0]
-    
+        crops = sorted(cal_df["crop"].unique())
+        st.session_state.master_crop = "Irish potato" if "Irish potato" in crops else crops[0]
     if "master_season" not in st.session_state:
-        active_crop = st.session_state.master_crop
-        available_seasons = sorted(cal_df.loc[cal_df["crop"] == active_crop, "season"].unique())
-        st.session_state.master_season = "Season A" if "Season A" in available_seasons else available_seasons[0]
+        seasons = sorted(cal_df.loc[cal_df["crop"] == st.session_state.master_crop, "season"].unique())
+        st.session_state.master_season = "Season A" if "Season A" in seasons else seasons[0]
+
 
 def sync_crop(widget_key):
-    """Callback to update master_crop when any local crop dropdown is changed."""
     st.session_state.master_crop = st.session_state[widget_key]
 
+
 def sync_season(widget_key):
-    """Callback to update master_season when any local season dropdown is changed."""
     st.session_state.master_season = st.session_state[widget_key]
 
-def get_active_index(options_list, master_key):
-    """Safely retrieves the index of the global state value within a local dropdown's options."""
-    current_val = st.session_state.get(master_key)
-    if current_val in options_list:
-        return options_list.index(current_val)
-    return 0
+
+def get_active_index(options, master_key):
+    val = st.session_state.get(master_key)
+    return options.index(val) if val in options else 0

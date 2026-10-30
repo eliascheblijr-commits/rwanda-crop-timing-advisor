@@ -1,85 +1,78 @@
-"""Simplified Farmer Assistant view (Tab 1). Premium Dark Native redesign."""
+"""'My crop': the plain-language starting screen for farmers, in English, Kinyarwanda or French."""
 import pandas as pd
 import streamlit as st
-from components.state_manager import sync_crop, sync_season, get_active_index
 
-def render(cal: pd.DataFrame, district_data: list):
-    """Renders the simplified wizard interface natively."""
-    
-    st.markdown("## <span style='color: #10B981;'>:material/eco:</span> Farmer Assistant", unsafe_allow_html=True)
-    st.markdown("<span style='color: #94A3B8;'>Select what you are growing and when to see optimal planting, harvesting, and selling times.</span>", unsafe_allow_html=True)
-    st.markdown("---")
+from components.i18n import t
+from components.state_manager import get_active_index, sync_crop, sync_season
+from components.text import crop_label, group_phrase, month_full, season_label, window_label
+
+
+def card(icon, color, title):
+    st.markdown(f"#### <span style='color:{color};'>:material/{icon}:</span> {title}", unsafe_allow_html=True)
+
+
+def render(cal: pd.DataFrame, district_data: list, lang: str = "en"):
+    st.markdown(f"## <span style='color:#10B981;'>:material/eco:</span> {t('title', lang)}", unsafe_allow_html=True)
+    st.caption(t("intro", lang))
 
     c1, c2 = st.columns(2)
-    
-    all_crops = sorted(cal["crop"].unique())
-    crop_idx = get_active_index(all_crops, "master_crop")
-    
-    crop = c1.selectbox(
-        "Crop", 
-        all_crops, 
-        index=crop_idx, 
-        key="wizard_crop",
-        on_change=sync_crop,
-        args=("wizard_crop",)
-    )
-    
-    available_seasons = sorted(cal.loc[cal["crop"] == crop, "season"].unique())
-    season_idx = get_active_index(available_seasons, "master_season")
-    
-    season = c2.selectbox(
-        "Season", 
-        available_seasons, 
-        index=season_idx, 
-        key="wizard_season",
-        on_change=sync_season,
-        args=("wizard_season",)
-    )
-
+    crops = sorted(cal["crop"].unique())
+    crop = c1.selectbox(t("q_crop", lang), crops, index=get_active_index(crops, "master_crop"), key=f"wizard_crop_{lang}",
+                        on_change=sync_crop, args=(f"wizard_crop_{lang}",), format_func=lambda c: crop_label(c, lang))
+    seasons = sorted(cal.loc[cal["crop"] == crop, "season"].unique())
+    season = c2.selectbox(t("q_season", lang), seasons, index=get_active_index(seasons, "master_season"), key=f"wizard_season_{lang}",
+                          on_change=sync_season, args=(f"wizard_season_{lang}",), format_func=lambda s: season_label(s, lang))
     row = cal[(cal["crop"] == crop) & (cal["season"] == season)].iloc[0]
-    st.markdown("<br>", unsafe_allow_html=True)
+    name = crop_label(crop, lang)
+    if lang != "en":
+        name = name[:1].lower() + name[1:]  # mid-sentence
+    if season == "Season C":
+        st.info(t("c_info", lang))
 
     with st.container(border=True):
-        sowing_window = row["peak_sowing_window"] if pd.notna(row["peak_sowing_window"]) else "an unspecified time"
-        st.markdown(f"#### <span style='color: #0EA5E9;'>:material/grass:</span> When to Plant", unsafe_allow_html=True)
-        st.markdown(f"**Plant your seeds around {sowing_window}.**")
-        st.caption("Most common planting period reported by farmers for this season.")
+        card("grass", "#0EA5E9", t("plant_title", lang))
+        if pd.notna(row["peak_sowing_window"]):
+            st.markdown(t("plant_yes", lang, crop=name, w=window_label(row["peak_sowing_window"], lang)))
+        else:
+            st.markdown(t("plant_no", lang))
 
     with st.container(border=True):
-        harvest_window = row["peak_harvest_window"] if pd.notna(row["peak_harvest_window"]) else "an unspecified time"
-        st.markdown(f"#### <span style='color: #10B981;'>:material/shopping_basket:</span> When to Harvest", unsafe_allow_html=True)
-        st.markdown(f"**Get ready to harvest around {harvest_window}.**")
-        st.caption(f"Historically, {row['peak_window_share']:.0%} of plots are harvested during this window.")
+        card("shopping_basket", "#10B981", t("harvest_title", lang))
+        if pd.notna(row["peak_harvest_window"]):
+            st.markdown(t("harvest_yes", lang, w=window_label(row["peak_harvest_window"], lang)))
+            st.caption(t("harvest_share", lang, p=f"{row['peak_window_share']:.0%}"))
+        else:
+            st.markdown(t("harvest_no", lang))
 
     with st.container(border=True):
-        st.markdown(f"#### <span style='color: #FBBF24;'>:material/payments:</span> When to Sell", unsafe_allow_html=True)
+        card("payments", "#FBBF24", t("sell_title", lang))
+        phrase = group_phrase(row["cpi_group"], lang) if row["cpi_group"] else ""
+        g = phrase[:1].upper() + phrase[1:]
         if pd.notna(row.get("price_gain_hold_3m_pct")):
             if row["price_gain_hold_3m_pct"] > 0:
-                st.markdown(f"**Hold your crop until {row['best_month_within_3m'][3:]} if you have safe storage.**")
-                st.caption(f"Prices are usually lowest at harvest. Waiting up to 3 months historically returns +{row['price_gain_hold_3m_pct']:.1f}%.")
+                month = month_full(row["best_month_within_3m"], lang)
+                st.markdown(t("sell_wait", lang, crop=name, m=month))
+                st.caption(t("sell_wait_cap", lang, g=g, x=f"{row['price_gain_hold_3m_pct']:.0f}", m=month))
             else:
-                st.markdown("**Sell immediately after harvest.**")
-                st.caption("Historical prices show no benefit to storing this crop for later sale.")
+                st.markdown(t("sell_now", lang))
+                st.caption(t("sell_now_cap", lang, g=g))
+            st.caption(t("sell_disc", lang))
+            if row["cpi_mapping_confidence"] == "probable_verify":
+                st.caption(t("sell_guess", lang, crop=name))
         else:
-            st.markdown("**Market prediction unavailable.**")
-            st.caption("No historical consumer price tracking is available for this specific crop.")
+            st.markdown(t("sell_none", lang))
+            st.caption(t("sell_none_cap", lang))
 
     with st.container(border=True):
-        st.markdown(f"#### <span style='color: #0EA5E9;'>:material/location_on:</span> Top 3 Producing Districts", unsafe_allow_html=True)
-        
+        card("location_on", "#0EA5E9", t("where_title", lang))
+        top = pd.DataFrame()
         if district_data:
             dc = pd.DataFrame(district_data)
-            sub = dc[(dc["season"] == season) & (dc["crop"] == crop)].dropna(subset=["share_of_entries"])
-            
-            if not sub.empty:
-                top_districts = sub.sort_values("share_of_entries", ascending=False).head(3)
-                ranking_str = " | ".join(
-                    f"**{i+1}. {r['district']}** ({r['share_of_entries']*100:.0f}%)" 
-                    for i, r in enumerate(top_districts.to_dict('records'))
-                )
-                st.markdown(ranking_str)
-                st.caption("Based on the share of total surveyed plots for this crop and season.")
-            else:
-                st.markdown("Insufficient regional data for this crop and season.")
+            top = dc[(dc["season"] == season) & (dc["crop"] == crop) & (dc["district_total_entries"] >= 100)]
+            top = top.sort_values("share_of_entries", ascending=False).head(3)
+        if top.empty:
+            st.markdown(t("where_none", lang))
         else:
-            st.markdown("District data is currently unavailable.")
+            st.markdown(" | ".join(f"**{i + 1}. {r['district']}** ({r['share_of_entries'] * 100:.0f}%)"
+                                   for i, (_, r) in enumerate(top.iterrows())))
+            st.caption(t("where_cap", lang, crop=name))
