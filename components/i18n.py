@@ -66,7 +66,7 @@ T = {
  "disclaimer": {"en": "Guidance, not advice: prices are national averages, not offers from buyers.",
                 "rw": "Ni ubuyobozi bwa rusange, si inama yihariye: ibiciro ni impuzandengo y'igihugu, si ibyo abaguzi batanze.",
                 "fr": "Repères, pas des conseils : les prix sont des moyennes nationales, pas des offres d'acheteurs."},
- "nav_0": {"en": "My crop (start here)", "rw": "Igihingwa cyanjye (tangira hano)", "fr": "Ma culture (commencer ici)"},
+ "nav_0": {"en": "My crop", "rw": "Igihingwa cyanjye", "fr": "Ma culture"},
  "nav_1": {"en": "Crop details", "rw": "Ibisobanuro by'igihingwa", "fr": "Détails de la culture"},
  "nav_2": {"en": "Compare crops", "rw": "Gereranya ibihingwa", "fr": "Comparer les cultures"},
  "nav_3": {"en": "Where it grows", "rw": "Aho gihingwa", "fr": "Où elle pousse"},

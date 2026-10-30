@@ -25,7 +25,7 @@ A web app with five pages. The first is written for farmers, and the rest give o
 
 | Page | Who it is for | What it shows |
 |---|---|---|
-| **My crop (start here)** | Farmers, extension agents | Pick a crop and a season. Get four short answers: when to plant, when to harvest, when to sell, and where it is most common. |
+| **My crop** | Farmers, extension agents | Pick a crop and a season. Get four short answers: when to plant, when to harvest, when to sell, and where it is most common. |
 | **Crop details** | Officers | Harvest timing chart, the price pattern through the year with the harvest month marked, typical harvest per hectare. |
 | **Compare crops** | Officers, planners | Rank all crops in a season by how much waiting could gain, or by how cheap the harvest month is. |
 | **Where it grows** | District officers | A map of how common a crop is in each of the 30 districts, or its typical harvest per hectare. |
