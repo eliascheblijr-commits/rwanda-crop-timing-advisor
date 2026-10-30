@@ -19,7 +19,7 @@ ACCENT_EMERALD = "#10B981"
 ACCENT_GOLD = "#FBBF24"
 
 def render_crop_explorer(cal: pd.DataFrame, windows: list, seasonal: dict):
-    st.markdown("## <span class='ph-bold ph-magnifying-glass' style='color: #10B981;'></span> Crop Explorer", unsafe_allow_html=True)
+    st.markdown("## <span style='color: #10B981;'>:material/search:</span> Crop Explorer", unsafe_allow_html=True)
     st.markdown("---")
 
     c_a, c_b = st.columns(2)
@@ -86,7 +86,7 @@ def render_crop_explorer(cal: pd.DataFrame, windows: list, seasonal: dict):
         p3.metric("Max Gain (6m Hold)", f"+{row['price_gain_hold_6m_pct']:.1f}%", "Max seasonal gain")
 
 def render_compare_crops(cal: pd.DataFrame):
-    st.markdown("## <span class='ph-bold ph-scales' style='color: #10B981;'></span> Compare Crops", unsafe_allow_html=True)
+    st.markdown("## <span style='color: #10B981;'>:material/balance:</span> Compare Crops", unsafe_allow_html=True)
     st.markdown("---")
 
     k1, k2 = st.columns([1, 2])
@@ -123,7 +123,7 @@ def render_compare_crops(cal: pd.DataFrame):
     st.dataframe(show, hide_index=True, width="stretch")
 
 def render_district_map(cal: pd.DataFrame, district_data: list, geo: dict):
-    st.markdown("## <span class='ph-bold ph-map-trifold' style='color: #10B981;'></span> District Map", unsafe_allow_html=True)
+    st.markdown("## <span style='color: #10B981;'>:material/map:</span> District Map", unsafe_allow_html=True)
     st.markdown("---")
 
     if not district_data or not geo:
@@ -184,7 +184,7 @@ def render_district_map(cal: pd.DataFrame, district_data: list, geo: dict):
         st.plotly_chart(fig, width="stretch", config=TOUCH_SAFE_CONFIG)
 
 def render_price_outlook(forecast: dict):
-    st.markdown("## <span class='ph-bold ph-chart-line-up' style='color: #10B981;'></span> Price Outlook", unsafe_allow_html=True)
+    st.markdown("## <span style='color: #10B981;'>:material/trending_up:</span> Price Outlook", unsafe_allow_html=True)
     st.markdown("---")
 
     if not forecast:
@@ -224,4 +224,4 @@ def render_price_outlook(forecast: dict):
             st.plotly_chart(fig, width="stretch", config=TOUCH_SAFE_CONFIG)
 
     with fc_col2:
-        st.dataframe(fc[["month", "value", "lo80", "hi80", "yoy_pct"]].rename(columns={"value": "Forecast", "lo80": "Low", "hi80": "High", "yoy_pct": "YoY %"}), hide_index=True, width="stretch")
+        st.dataframe(fc[["month", "value", "lo80", "hi80", "yoy_pct"]].rename(columns={"value": "Forecast", "lo80": "Low", "hi80": "High", "yoy_pct": "YoY %"}), hide_index=True, width="stretch")  

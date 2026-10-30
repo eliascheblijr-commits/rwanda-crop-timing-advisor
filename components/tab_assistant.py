@@ -6,7 +6,7 @@ from components.state_manager import sync_crop, sync_season, get_active_index
 def render(cal: pd.DataFrame, district_data: list):
     """Renders the simplified wizard interface natively."""
     
-    st.markdown("## <span class='ph-bold ph-plant' style='color: #10B981;'></span> Farmer Assistant", unsafe_allow_html=True)
+    st.markdown("## <span style='color: #10B981;'>:material/eco:</span> Farmer Assistant", unsafe_allow_html=True)
     st.markdown("<span style='color: #94A3B8;'>Select what you are growing and when to see optimal planting, harvesting, and selling times.</span>", unsafe_allow_html=True)
     st.markdown("---")
 
@@ -41,18 +41,18 @@ def render(cal: pd.DataFrame, district_data: list):
 
     with st.container(border=True):
         sowing_window = row["peak_sowing_window"] if pd.notna(row["peak_sowing_window"]) else "an unspecified time"
-        st.markdown(f"#### <span class='ph-bold ph-seedling' style='color: #0EA5E9;'></span> When to Plant", unsafe_allow_html=True)
+        st.markdown(f"#### <span style='color: #0EA5E9;'>:material/grass:</span> When to Plant", unsafe_allow_html=True)
         st.markdown(f"**Plant your seeds around {sowing_window}.**")
         st.caption("Most common planting period reported by farmers for this season.")
 
     with st.container(border=True):
         harvest_window = row["peak_harvest_window"] if pd.notna(row["peak_harvest_window"]) else "an unspecified time"
-        st.markdown(f"#### <span class='ph-bold ph-basket' style='color: #10B981;'></span> When to Harvest", unsafe_allow_html=True)
+        st.markdown(f"#### <span style='color: #10B981;'>:material/shopping_basket:</span> When to Harvest", unsafe_allow_html=True)
         st.markdown(f"**Get ready to harvest around {harvest_window}.**")
         st.caption(f"Historically, {row['peak_window_share']:.0%} of plots are harvested during this window.")
 
     with st.container(border=True):
-        st.markdown(f"#### <span class='ph-bold ph-coins' style='color: #FBBF24;'></span> When to Sell", unsafe_allow_html=True)
+        st.markdown(f"#### <span style='color: #FBBF24;'>:material/payments:</span> When to Sell", unsafe_allow_html=True)
         if pd.notna(row.get("price_gain_hold_3m_pct")):
             if row["price_gain_hold_3m_pct"] > 0:
                 st.markdown(f"**Hold your crop until {row['best_month_within_3m'][3:]} if you have safe storage.**")
@@ -65,7 +65,7 @@ def render(cal: pd.DataFrame, district_data: list):
             st.caption("No historical consumer price tracking is available for this specific crop.")
 
     with st.container(border=True):
-        st.markdown(f"#### <span class='ph-bold ph-map-pin' style='color: #0EA5E9;'></span> Top 3 Producing Districts", unsafe_allow_html=True)
+        st.markdown(f"#### <span style='color: #0EA5E9;'>:material/location_on:</span> Top 3 Producing Districts", unsafe_allow_html=True)
         
         if district_data:
             dc = pd.DataFrame(district_data)

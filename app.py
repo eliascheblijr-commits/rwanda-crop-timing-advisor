@@ -25,8 +25,6 @@ st.html(
     dedent(
         """
     <style>
-    @import url('https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css');
-    @import url('https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css');
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 
     :root {
@@ -59,10 +57,6 @@ st.html(
         padding-top: 2rem !important;
         padding-bottom: 4rem !important;
         max-width: 1400px !important;
-    }
-
-    .ph, .ph-bold {
-        vertical-align: -0.125em;
     }
 
     /* Native Container Styling */
@@ -100,7 +94,7 @@ st.html(
         letter-spacing: -0.02em !important;
     }
     div[data-testid="stMetricDelta"] svg {
-        display: none !important; /* Hide native arrows for cleaner pill look */
+        display: none !important;
     }
     div[data-testid="stMetricDelta"] div {
         color: var(--accent-emerald) !important;
@@ -147,7 +141,7 @@ st.html(
         color: var(--text-primary);
     }
     .st-emotion-cache-1wivap2 {
-        color: var(--text-secondary); /* Captions */
+        color: var(--text-secondary);
     }
     hr {
         border-color: var(--border-color) !important;
